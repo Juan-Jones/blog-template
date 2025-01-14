@@ -1,0 +1,56 @@
+---
+import BaseLayout from '@/layouts/BaseLayout'
+import ListPosts from '@/components/ListPosts'
+import ListCategories from '@/components/ListCategories'
+import TitlePage from '@/components/TitlePage'
+import { sluglify, unsluglify, getCategories, getPosts } from '@/utils'
+import { siteConfig } from '@/data/site.config'
+import Pagination from '@/components/Pagination'
+
+export async function getStaticPaths({ paginate }: any) {
+	const categories = await getCategories()
+	const allPosts = await getPosts()
+
+	return categories.flatMap((category: string) => {
+		const unsluglifyNameCategory = unsluglify(category!.toLowerCase())
+		const filteredPosts = allPosts.filter(
+			(post) => post.data.category.toLowerCase() === unsluglifyNameCategory
+		)
+
+		return paginate(filteredPosts, {
+			params: {
+				category: sluglify(category.toLowerCase())
+			},
+			pageSize: siteConfig.paginationSize
+		})
+	})
+}
+
+// Extract `page` as an array to support catch-all routing
+const params = Astro.params
+const pageParam = params.page || []
+const currentPage = pageParam.length > 0 ? parseInt(pageParam[0], 10) : 1
+
+// Handle category name and fetch posts
+const unsluglifyNameCategory = unsluglify(params.category!.toLowerCase())
+const allPosts = await getPosts()
+const filteredPosts = allPosts.filter(
+	(post) => post.data.category.toLowerCase() === unsluglifyNameCategory
+)
+
+const totalPages = Math.ceil(filteredPosts.length / siteConfig.paginationSize)
+const start = (currentPage - 1) * siteConfig.paginationSize
+const end = start + siteConfig.paginationSize
+const posts = filteredPosts.slice(start, end)
+---
+
+<BaseLayout title={params.category}>
+	<TitlePage title={unsluglifyNameCategory} />
+	<ListCategories activeCategory={params.category} />
+	<ListPosts posts={posts} />
+	<Pagination
+		currentPage={currentPage}
+		totalPages={totalPages}
+		baseUrl={`/category/${params.category}`}
+	/>
+</BaseLayout>

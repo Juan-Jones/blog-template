@@ -1,4 +1,7 @@
-User-agent: *
-Allow: /
+User-agent: Mediapartners-Google
+Disallow:
 
-Sitemap: https://blog-template-gray.vercel.app/sitemap-index.xml
+User-agent: *
+Disallow:
+
+Sitemap: https://earnonlinemoney.org/sitemap-index.xml

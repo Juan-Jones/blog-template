@@ -35,7 +35,8 @@
 	"dependencies": {
 		"@astrojs/rss": "4.0.1",
 		"astro": "4.0.8",
-		"astro-font": "^0.0.72"
+		"astro-font": "^0.0.72",
+		"markdown-it-external-links": "^0.0.6"
 	},
 	"devDependencies": {
 		"@astrojs/mdx": "2.0.3",
