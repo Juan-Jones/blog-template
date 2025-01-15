@@ -20,3 +20,5 @@ const blog = defineCollection({
 })
 
 export const collections = { blog }
+
+export { default as DefaultImage } from '../assets/images/make-money.jpg'

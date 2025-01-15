@@ -1,0 +1,62 @@
+---
+import BaseLayout from '@/layouts/BaseLayout'
+
+// Static content for the About page
+const title = 'About Us'
+const description = 'Learn more about who we are, our mission, and what we stand for.'
+---
+
+<BaseLayout title={title} description={description}>
+	<article class='min-w-full md:py-4 sm:max-w-none md:max-w-none'>
+		<header class='mb-3 flex flex-col justify-center items-center gap-6'>
+			<div class='flex flex-col gap-2'>
+				<h1 class='text-center text-4xl md:text-6xl md:pb-2.5 font-semibold'>
+					{title}
+				</h1>
+				<p class='text-center text-lg md:text-xl text-opacity-75'>
+					{description}
+				</p>
+			</div>
+		</header>
+		<hr />
+		<div class='prose max-w-none'>
+			<h2>Our Mission</h2>
+			<p>
+				At Earnonlinemoney.org, Seasoned make money from home journalist! Here you find smart
+				investents, quick internet injections, to earn money from home both online and
+				offline.support entrepreneurship share insight, a community , insights, and tools with you,
+				so you can avoid the trials and tribulations that other entrepreneurs and myself encountered
+				throughout the journey to financial success. Therefore, I've assembled a team of experts who
+				have walked the same path and achieved remarkable results, and together, we're committed to
+				helping you thrive in the digital interface
+			</p>
+
+			<h2>What We Offer</h2>
+			<p>
+				This website serves as a comprehensive resource hub, offering a wide array of meticulously
+				curated articles, tutorials, and guides on various methods of generating income online.
+				Covering topics such as affiliate marketing, e-commerce, blogging, dropshipping, and online
+				tutoring, the content is designed to provide value to both beginners and seasoned
+				individuals seeking to expand their knowledge. The resources presented have been
+				thoughtfully developed to simplify the process of earning income online. Whether navigating
+				the fundamentals or exploring advanced strategies, users will find in-depth insights and
+				actionable advice tailored to their level of expertise. The platform’s mission is to empower
+				individuals with the knowledge and skills needed to make informed decisions and capitalize
+				on opportunities that align with their goals. Additionally, the website highlights inspiring
+				success stories from individuals who have achieved financial independence through online
+				ventures. These real-life examples serve as a testament to the potential of determination,
+				perseverance, and smart decision-making in the digital economy.
+			</p>
+
+			<h2>Stay in the Loop</h2>
+			<p>
+				Recognizing the dynamic nature of the online landscape, the platform remains dedicated to
+				staying at the forefront of emerging trends, updating its content regularly to reflect the
+				latest strategies and opportunities. This commitment ensures are equipped with the tools
+				necessary to adapt and thrive in an ever-evolving environment. At the core of this
+				initiative lies a belief in fostering responsible and ethical approaches to online income
+				generation, providing a foundation for sustainable success in the digital age.
+			</p>
+		</div>
+	</article>
+</BaseLayout>
