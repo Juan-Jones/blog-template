@@ -49,7 +49,7 @@ Performance is a key ingredient to success with eBay. Therelrefore, you must foc
 
 Payment Threshold: eBay Partner Network typically maintains a payment threshold set at ten dollars.
 
-Methods of Payment: Associates can receive payments through direct deposit or PayPal with eBay Partner Network.popular_posts: true
+Methods of Payment: Associates can receive payments through direct deposit or PayPal with eBay Partner Network.
 
 Average Commission: Commission rates on eBay Partner Network vary by product category, with potential rates reaching up to 70% or more for certain items.
 

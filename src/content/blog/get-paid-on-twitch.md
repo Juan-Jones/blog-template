@@ -17,24 +17,14 @@ There are several revenue streams available on Twitch. Let’s break them down:
 
 ### 1. Twitch Affiliate Program
 
-The Affiliate Program is the first step for many streamers looking to monetize. To qualify, you need to meet specific criteria:
-
-- At least 50 followers.
-- 500 minutes streamed in the last 30 days.
-- An average of 3 concurrent viewers or more.
-- Stream on 7 different days in the last 30 days.
+The Affiliate Program is the first step for many streamers looking to monetize. To qualify, you need to meet specific criteria. For instance, you must have at least 50 followers, streamed 500 + minutes last 30 days, average 3 viewers a day, stream on 7 different days in the last 30 days.
 
 Once accepted, Affiliates unlock income options such as subscriptions, Bits, and game sales. Streamers typically keep 50% of the subscription revenue, though some top-tier partners negotiate a higher split.
 
-#### Bits
+- Bits: Bits are a virtual currency fans use to cheer for their favorite streamers. Each Bit is worth 0.01, and the revenue can add up quickly, especially during hype moments.
+- Twitch Partner Program: For streamers who’ve built a substantial following, the [Twitch Partner Program](https://www.twitch.tv/p/partners) offers even more benefits. Partners receive the same monetization options as Affiliates but with improved revenue splits and additional perks like ad revenue sharing.
 
-Bits are a virtual currency fans use to cheer for their favorite streamers. Each Bit is worth 0.01, and the revenue can add up quickly, especially during hype moments.
-
-### 2. Twitch Partner Program
-
-For streamers who’ve built a substantial following, the [Twitch Partner Program](https://www.twitch.tv/p/partners) offers even more benefits. Partners receive the same monetization options as Affiliates but with improved revenue splits and additional perks like ad revenue sharing.
-
-#### Ad Revenue
+### 2. Ad Revenue
 
 Twitch Partners can earn from pre-roll and mid-roll ads. While [earning ad revenue](/blog/ad-revenue-strategies) might not be substantial for smaller streamers, popular streamers with large audiences can see meaningful returns.
 
@@ -61,5 +51,5 @@ Earnings on Twitch vary widely based on factors like audience size, engagement, 
 - Subscriptions: 250 - 500 dollars per month.
 - Bits: 100 - 300 dollars per month.
 - Donations: 200 - 600 dollars per month.
-- Sponsorships: 500+ per deal
-- Merchandising: 100+ dollars per month.
+- Sponsorships: 500 per deal
+- Merchandising: Over 100 dollars per month.

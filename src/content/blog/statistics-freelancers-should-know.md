@@ -27,7 +27,7 @@ _77% of on-demand workers are optimistic about there personal income salary._ So
 
 Remote work has become the new norm due to advancements in technology, enabling seamless communication and collaboration from anywhere. Organizations recognize the cost-saving benefits, increased productivity, and access to a global talent pool, solidifying remote work as a permanent fixture in modern work culture. With the right skills and strategies, you can begin your journey to work from home.
 
-_98% of respondents want to work remotely, at least some of the time, for the rest of their careers (Source: Buffer's State of Remote Work report)._
+98% of respondents want to work remotely, at least some of the time, for the rest of their careers (Source: Buffer's State of Remote Work report).
 
 ### 4. Networking is Essential
 
@@ -57,7 +57,7 @@ _44% of freelancers struggle with time management (Source: TSheets)._
 
 Freelancers cherish flexibility as it allows them to adapt their schedules to accommodate diverse projects, personal obligations, and lifestyle preferences. This adaptability fosters productivity and creativity, ultimately leading to greater professional fulfillment.
 
-_80% of independent contractors say the ability to work flexibly is a top priority (Source: FlexJobs)._
+80% of independent contractors say the ability to work flexibly is a top priority (Source: FlexJobs).
 
 ### 9. Cybersecurity is a Concern
 
@@ -67,13 +67,13 @@ Picture a world where cyber threats lurk in the shadows, ready to strike at any 
 
 Compared to traditional employment, where contracts are standard, freelancers face greater risks without formal agreements. Contracts establish boundaries, ensure fair compensation, and mitigate legal liabilities, safeguarding freelancers' interests.
 
-_71% of freelancers have faced nonpayment or late payment issues (Source: Freelancers Union). Freelancers underreport their income by 63%, according to the IRS._
+71% of freelancers have faced nonpayment or late payment issues (Source: Freelancers Union). Freelancers underreport their income by 63%, according to the IRS.
 
 ### 11. Health Insurance Challenges
 
 Through analysis, it's clear: freelancers indeed grapple with the challenge of affordable health insurance. Market trends and data highlight the disparity in insurance costs between traditional employment and freelancing, exacerbating the issue.
 
-_20% of independent contractors struggle to find affordable health insurance (Source: Upwork's Freelancing in America report)._
+20% of independent contractors struggle to find affordable health insurance (Source: Upwork's Freelancing in America report).
 
 ### 12. Upskilling is Essential
 
@@ -83,7 +83,7 @@ When it comes to freelancing, upskilling is indispensable. Research shows a dire
 
 Many on-demand workers experience symptoms of mental illness. The nature of freelancing, including isolation, irregular income, and high stress levels, can contribute to conditions like anxiety and depression.
 
-_60% of on-demand workers have experienced symptoms of mental illness (Source: Mind Share Partners)._
+60% of on-demand workers have experienced symptoms of mental illness (Source: Mind Share Partners).
 
 ### 14. Tax Compliance Is Crucial
 
@@ -101,7 +101,7 @@ _73% of freelancers specialize in two or more skills (Source: Forbes)._
 
 Independent contractors must prioritize work-life balance fervently. It not only enhances overall happiness and satisfaction but also improves performance and longevity in the freelancing career. Achieving a healthy work life balance is essential for freelancer well-being, productivity, and overall satisfaction.
 
-_A survey by FlexJobs found that 97% of professionals believe having a flexible job would have a positive impact on their quality of life._
+A survey by FlexJobs found that 97% of professionals believe having a flexible job would have a positive impact on their quality of life.
 
 ### 17. Professional Development Opportunities Abound
 
