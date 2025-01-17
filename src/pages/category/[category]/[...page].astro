@@ -11,8 +11,13 @@ export async function getStaticPaths({ paginate }: any) {
 	const categories = await getCategories()
 	const allPosts = await getPosts()
 
+	// Validate categories exist
+	if (!categories || categories.length === 0) {
+		throw new Error('No categories found! Ensure your data source is configured correctly.')
+	}
+
 	return categories.flatMap((category: string) => {
-		const unsluglifyNameCategory = unsluglify(category!.toLowerCase())
+		const unsluglifyNameCategory = unsluglify(category.toLowerCase())
 		const filteredPosts = allPosts.filter(
 			(post) => post.data.category.toLowerCase() === unsluglifyNameCategory
 		)
@@ -34,20 +39,42 @@ const currentPage = pageParam.length > 0 ? parseInt(pageParam[0], 10) : 1
 // Handle category name and fetch posts
 const unsluglifyNameCategory = unsluglify(params.category!.toLowerCase())
 const allPosts = await getPosts()
+
+// Filter posts by category
 const filteredPosts = allPosts.filter(
 	(post) => post.data.category.toLowerCase() === unsluglifyNameCategory
 )
 
+// Validate category and posts
+if (!filteredPosts || filteredPosts.length === 0) {
+	throw new Response('Category not found or no posts available', { status: 404 })
+}
+
+// Calculate pagination
 const totalPages = Math.ceil(filteredPosts.length / siteConfig.paginationSize)
+
+if (currentPage < 1 || currentPage > totalPages) {
+	throw new Response('Page not found', { status: 404 })
+}
+
+// Paginate posts
 const start = (currentPage - 1) * siteConfig.paginationSize
 const end = start + siteConfig.paginationSize
 const posts = filteredPosts.slice(start, end)
 ---
 
-<BaseLayout title={params.category}>
-	<TitlePage title={unsluglifyNameCategory} />
+<BaseLayout title={`Category: ${unsluglifyNameCategory}`}>
+	<TitlePage title={`Category: ${unsluglifyNameCategory}`} />
 	<ListCategories activeCategory={params.category} />
-	<ListPosts posts={posts} />
+	{
+		posts.length > 0 ? (
+			<ListPosts posts={posts} />
+		) : (
+			<p>
+				No posts found in this category. <a href='/categories'>View all categories</a>.
+			</p>
+		)
+	}
 	<Pagination
 		currentPage={currentPage}
 		totalPages={totalPages}
