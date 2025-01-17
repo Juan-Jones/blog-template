@@ -17,7 +17,7 @@ Freelance writing offers the freedom to work from anywhere, choose projects, and
 
 Finding freelance writing gigs can be a rewarding way to earn extra income or even build a full-time career. There are several platforms that you can choose from! These platforms offers a wide range of opportunities for writers of all levels. To get started, create a compelling profile highlighting your skills, experience, and writing samples. Be sure to tailor your gigs to specific niches, such as blog writing, copywriting, or technical writing, to attract targeted clients.
 
-Additionally, networking on social media and joining writing communities can help you discover new opportunities and connect with potential clients. Building a strong portfolio and consistently delivering high-quality work will lead to positive reviews and repeat business, further boosting your freelance career. Keep honing your skills and staying updated with industry trends to stand out in the competitive freelance market. Below you will find [important tips for freelancers](/blog/tips-for-freelancers).
+Additionally, networking on social media and joining writing communities can help you discover new opportunities and connect with potential clients. Building a strong portfolio and consistently delivering high-quality work will lead to positive reviews and repeat business, further boosting your freelance career. Keep honing your skills and staying updated with industry trends to stand out in the competitive freelance market. Below you will find important tips for freelancers.
 
 ### Establish a Strong Portfolio
 

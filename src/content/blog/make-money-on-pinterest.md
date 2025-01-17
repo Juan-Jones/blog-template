@@ -29,8 +29,6 @@ Option #2 (Get a free landing page) If you don’t want to pay for a landing pag
 
 If you want to grow your Pinterest page quickly, it’s essential to [create a Pinterest business account](https://www.pinterest.com/business). Not only does the business account help you grow faster, but it gives you access to valuable tools like analytics and ads. Do not forget to include the link to your landing page on your Pinterest business account profile.
 
-Heres a post that can help, How to Use [Social Channels for Business](/blog/using-social-media-for-business).
-
 ### 3. Build an Active Following
 
 To make money on Pinterest you must build an active following. I’m sure you’re wondering how to build an active following. To state the obvious, marketing is the key to building an enthusiastic following! No matter which strategy you choose to make money on Pinterest, marketing is the key. So, if you don’t have marketing skills. You should take a marketing crash course. However, I’ll show you a few secrets to gain followers.

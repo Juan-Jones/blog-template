@@ -54,7 +54,7 @@ Headquartered in San Francisco, [Kraten](https://kraten.com) stands as one of th
 
 ### Robinhood.com
 
-Robinhood is recognized for its user-friendly interface and fee-free trading options, making it a popular choice among cryptocurrency and stock traders alike. With its intuitive platform design and mobile application, Robinhood offers users the convenience of accessing a variety of [investment options](introduction-to-investing), including ETFs and options trading, thereby catering to diverse investor preferences.
+Robinhood is recognized for its user-friendly interface and fee-free trading options, making it a popular choice among cryptocurrency and stock traders alike. With its intuitive platform design and mobile application, Robinhood offers users the convenience of accessing a variety of [investment options](/blog/introduction-to-investing), including ETFs and options trading, thereby catering to diverse investor preferences.
 
 ### Airdrops.com
 

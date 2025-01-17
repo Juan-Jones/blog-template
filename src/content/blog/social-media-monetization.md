@@ -59,7 +59,7 @@ Creating engaging and shareable content is key to [making money on Facebook](/bl
 
 #### Earn Money on TikTok
 
-On TikTok, creating viral content and participating in popular challenges can attract a large audience. There are several opportunities to [earn legit money on TikTok](/blog/tiktok-monetization), including brand partnerships and the TikTok Creator Fund offer. Consistently posting and engaging with trends helps maximize your earnings.
+On TikTok, creating viral content and participating in popular challenges can attract a large audience. There are several opportunities to earn legit money on TikTok, including brand partnerships and the TikTok Creator Fund offer. Consistently posting and engaging with trends helps maximize your earnings.
 
 - TikTok Creator Fund: Join the Creator Fund to earn money based on your video views and engagement.
 - Brand Collaborations: Partner with brands for sponsored content.

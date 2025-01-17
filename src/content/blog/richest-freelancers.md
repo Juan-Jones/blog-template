@@ -42,7 +42,7 @@ Jessica Hische, a freelance letterer and illustrator, is a prominent figure in t
 
 ### Consulting and Coaching
 
-Ramit Sethi, a financial advisor and author, who has a multimillion-dollar freelance consulting business in which he offers the [valuable freelance tips](/blog/tips-for-freelancers) to readers. Known for his book "I Will Teach You to Be Rich," Sethi provides high-ticket coaching and online courses on personal finance and entrepreneurship. Ramit Sethi methodology;
+Ramit Sethi, a financial advisor and author, who has a multimillion-dollar freelance consulting business in which he offers the valuable freelance tips to readers. Known for his book "I Will Teach You to Be Rich," Sethi provides high-ticket coaching and online courses on personal finance and entrepreneurship. Ramit Sethi methodology;
 
 - Premium Pricing: Sethi's high-value coaching programs command premium prices, contributing to his substantial income.
 - Scalability: By creating scalable digital products, he extended his reach and maximized his earnings potential.

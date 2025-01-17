@@ -85,7 +85,7 @@ Don’t rely solely on Fiverr’s internal traffic. Promote your gigs on social 
 
 ### 9. Take Advantage of Fiverr’s Tools
 
-Fiverr offers various tools and [freelance tips](/blog/tips-for-freelancers) to help you succeed, such as analytics to track your performance and buyer requests to find potential clients. Utilize these resources to stay ahead of the competition and continuously improve your services.
+Fiverr offers various tools and freelance tips to help you succeed, such as analytics to track your performance and buyer requests to find potential clients. Utilize these resources to stay ahead of the competition and continuously improve your services.
 
 #### Conclusion
 

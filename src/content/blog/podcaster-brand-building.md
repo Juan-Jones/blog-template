@@ -33,7 +33,7 @@ Consistency in your logo, color scheme, and tone helps reinforce your podcast’
 
 Leverage platforms like Instagram, Twitter, and Facebook to promote episodes and interact with listeners. Share behind-the-scenes content, post engaging visuals, and use teasers to draw attention to your show.
 
-Take advantage of [podcasting seo techniques](/blog/podcasting-seo-strategies). Search engine optimization (SEO) can help potential listeners find your podcast. Use relevant keywords in episode titles, descriptions, and tags. For instance, if your podcast focuses on personal finance, incorporate terms like "budgeting tips" or "saving strategies."
+Take advantage of podcasting seo techniques. Search engine optimization (SEO) can help potential listeners find your podcast. Use relevant keywords in episode titles, descriptions, and tags. For instance, if your podcast focuses on personal finance, incorporate terms like "budgeting tips" or "saving strategies."
 
 Last but not least, leverage partnerships. Partnering with other podcasters, influencers, or brands in your niche can help expose your show to new audiences. Guest appearances and cross-promotions are effective ways to grow.
 
