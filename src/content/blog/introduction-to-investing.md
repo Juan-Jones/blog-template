@@ -9,7 +9,7 @@ tags: ['Wealth Building']
 
 Investing is a crucial aspect of financial planning that empowers individuals to grow their wealth over time. Whether you're aiming to save for retirement, build a nest egg, or achieve financial independence, understanding the fundamentals of investing is essential. This guide provides a comprehensive overview for beginners, covering key concepts, strategies, and practical tips to navigate the world of investing confidently.
 
-## What is Investing?
+## What is Investing
 
 Investing involves committing money or capital to an asset, such as stocks, bonds, real estate, or mutual funds, with the expectation of generating profitable returns over time. Unlike saving, which typically involves low-risk instruments like savings accounts, investing carries varying degrees of risk and potential rewards. It's a strategic approach to grow wealth beyond the rate of inflation, allowing investors to achieve financial goals that may otherwise be unattainable through savings alone.
 

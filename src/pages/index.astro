@@ -4,7 +4,7 @@ import ListPosts from '@/components/ListPosts'
 import TitlePage from '@/components/TitlePage'
 import BaseLayout from '@/layouts/BaseLayout'
 import { getPosts } from '@/utils'
-import { siteConfig } from '@/site-config'
+import { siteConfig } from '@/data/site.config'
 
 const MAX_POSTS = 11 // max number of posts to show on the home page
 const posts = await getPosts(MAX_POSTS)
@@ -31,7 +31,6 @@ const posts = await getPosts(MAX_POSTS)
 			{
 				duration: 2.5,
 				opacity: { duration: 3 },
-
 				offset: [0, 0.55, 0.75]
 			}
 		)

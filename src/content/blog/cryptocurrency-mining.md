@@ -7,9 +7,9 @@ category: 'Investment Strategies'
 tags: ['Crypto']
 ---
 
-Thinking about investing in _cryptocurrency mining_? If so, great, this crypto mining [investment guide](/blog/introduction-to-investing) we'll walk you through the fundamentals of cryptocurrency mining, the equipment you'll need, and tips for optimizing your mining operations. With the right strategy and dedication, you can turn your computer into a money-making machine.
+Thinking about investing in cryptocurrency mining? If so, great, this crypto mining [investment guide](/blog/introduction-to-investing) we'll walk you through the fundamentals of cryptocurrency mining, the equipment you'll need, and tips for optimizing your mining operations. With the right strategy and dedication, you can turn your computer into a money-making machine.
 
-## What is Cryptocurrency Mining?
+## What is Cryptocurrency Mining
 
 Cryptocurrency mining is a process of adding transaction records to Bitcoin's public ledger of past transactions and a "mining rig" is a large, expensive, power-hungry computer that does this. Mining cryptocoins is how new Bitcoin is created. You can mine them on your own, but it's more profitable to join a mining pool. This is where you contribute your processing power to help solve complicated mathematical problems and are rewarded with cryptocurrency for your efforts.
 
@@ -23,7 +23,7 @@ Before diving in, thorough research is crucial. Assessing the current market con
 
 While mining can yield substantial profits during bull markets, it also carries risks, including increased competition and regulatory uncertainties. Therefore, it's essential to approach crypto mining with caution and to continuously evaluate its profitability relative to other investment options. As noted, mining can be profitable, but success requires careful consideration of various factors and ongoing monitoring of market conditions.
 
-## How Does Crypto Mining Work?
+## How Does Crypto Mining Work
 
 Crypto mining has garnered significant attention in recent years, emerging as a lucrative avenue for individuals to delve into the world of digital assets. Here's a simplified breakdown of how crypto mining works;
 
