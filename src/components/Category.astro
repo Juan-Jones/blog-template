@@ -5,9 +5,8 @@ const { name = 'View All', activeCategory } = Astro.props
 const currentPath = Astro.url.pathname
 const unsluglifyNameCategory = sluglify(name.toLowerCase())
 
-// Determine if this category is active
 const isActive =
-	activeCategory?.toLocaleLowerCase() === unsluglifyNameCategory ||
+	activeCategory?.toLowerCase() === unsluglifyNameCategory ||
 	(currentPath === '/' && name === 'View All')
 ---
 

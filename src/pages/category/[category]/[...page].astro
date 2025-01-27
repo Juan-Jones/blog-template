@@ -1,22 +1,24 @@
 ---
+import type { PaginateFunction } from 'astro'
 import BaseLayout from '@/layouts/BaseLayout'
 import ListPosts from '@/components/ListPosts'
 import ListCategories from '@/components/ListCategories'
 import TitlePage from '@/components/TitlePage'
 import { sluglify, unsluglify, getCategories, getPosts } from '@/utils'
 import { siteConfig } from '@/data/site.config'
+import { getEntry } from 'astro:content'
 import Pagination from '@/components/Pagination'
 
-export async function getStaticPaths({ paginate }: any) {
+// Ensure paginate function is properly typed
+export async function getStaticPaths({ paginate }: { paginate: PaginateFunction }) {
 	const categories = await getCategories()
 	const allPosts = await getPosts()
 
-	// Validate categories exist
 	if (!categories || categories.length === 0) {
 		throw new Error('No categories found! Ensure your data source is configured correctly.')
 	}
 
-	return categories.flatMap((category: string) => {
+	return categories.flatMap((category) => {
 		const unsluglifyNameCategory = unsluglify(category.toLowerCase())
 		const filteredPosts = allPosts.filter(
 			(post) => post.data.category.toLowerCase() === unsluglifyNameCategory
@@ -33,11 +35,13 @@ export async function getStaticPaths({ paginate }: any) {
 
 // Extract `page` as an array to support catch-all routing
 const params = Astro.params
-const pageParam = params.page || []
-const currentPage = pageParam.length > 0 ? parseInt(pageParam[0], 10) : 1
+const pageParam = Array.isArray(params.page) ? params.page[0] : params.page
+const currentPage = pageParam ? parseInt(pageParam, 10) : 1
 
 // Handle category name and fetch posts
-const unsluglifyNameCategory = unsluglify(params.category!.toLowerCase())
+const unsluglifyNameCategory = unsluglify(params.category.toLowerCase())
+const categoryData = await getEntry('categories', sluglify(params.category.toLowerCase()))
+
 const allPosts = await getPosts()
 
 // Filter posts by category
@@ -71,7 +75,7 @@ const posts = filteredPosts.slice(start, end)
 			<ListPosts posts={posts} />
 		) : (
 			<p>
-				No posts found in this category. <a href='/categories'>View all categories</a>.
+				No posts found in this category. <a href='/category'>View all categories</a>.
 			</p>
 		)
 	}

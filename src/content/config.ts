@@ -19,6 +19,12 @@ const blog = defineCollection({
 		})
 })
 
-export const collections = { blog }
+const categories = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		description: z.string()
+	})
+})
 
-export { default as DefaultImage } from '../assets/images/make-money.jpg'
+export const collections = { blog, categories }

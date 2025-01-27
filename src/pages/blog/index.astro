@@ -1,34 +1,24 @@
 ---
-import { getCollection } from 'astro:content'
 import BaseLayout from '@/layouts/BaseLayout'
+import TitlePage from '@/components/TitlePage'
+import ListPosts from '@/components/ListPosts'
+import Pagination from '@/components/Pagination'
+import { getPosts } from '@/utils'
+import { siteConfig } from '@/data/site.config'
 
-// Fetch all blog posts from the `blog` collection
-const posts = await getCollection('blog')
+const PAGE_SIZE = 11
+const allPosts = await getPosts()
+const totalPages = Math.ceil(allPosts.length / PAGE_SIZE)
+const paginatedPosts = allPosts.slice(0, PAGE_SIZE)
 ---
 
-<BaseLayout>
-	<article class='min-w-full md:py-4 sm:max-w-none md:max-w-none'>
-		<header class='mb-3 flex flex-col justify-center items-center gap-6'>
-			<div class='flex flex-col gap-2'>
-				<h1 class='text-center text-4xl md:text-6xl md:pb-2.5 font-semibold'></h1>
-			</div>
-			<html>
-				<head>
-					<title>Blog Directory</title>
-				</head>
-				<body>
-					<h1>Blog Posts</h1>
-					<ul>
-						{
-							posts.map((post) => (
-								<li>
-									<a href={`/blog/${post.slug}`}>{post.data.title}</a>
-								</li>
-							))
-						}
-					</ul>
-				</body>
-			</html>
-		</header>
-	</article>
+<BaseLayout title='Blog'>
+	<TitlePage title={siteConfig.title} />
+
+	<div>
+		<h2 class='text-lg font-medium tracking-wide text-end'>Latest Posts</h2>
+		<ListPosts FirstBig={true} posts={paginatedPosts} />
+	</div>
+
+	<Pagination currentPage={1} totalPages={totalPages} baseUrl='/blog' />
 </BaseLayout>

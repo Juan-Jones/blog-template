@@ -1,0 +1,42 @@
+---
+import BaseLayout from '@/layouts/BaseLayout'
+import TitlePage from '@/components/TitlePage'
+import ListPosts from '@/components/ListPosts'
+import Pagination from '@/components/Pagination'
+import { getCollection, type CollectionEntry } from 'astro:content'
+import { siteConfig } from '@/data/site.config'
+import type { GetStaticPaths, Page } from 'astro'
+
+export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
+	const posts = await getCollection('blog')
+
+	return paginate(
+		posts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()),
+		{
+			pageSize: siteConfig.paginationSize // Dynamically get the page size from config
+		}
+	)
+}
+
+type Props = {
+	page: Page<CollectionEntry<'blog'>>
+}
+
+const page = Astro.props.page
+const paginatedPosts = page.data
+const currentPage = page.currentPage
+const totalPages = page.lastPage
+---
+
+<BaseLayout title={`Blog - Page ${currentPage}`}>
+	<TitlePage title={siteConfig.title} />
+
+	<div>
+		<h2 class='text-lg font-medium tracking-wide text-end'>
+			Latest Posts - Page {currentPage}
+		</h2>
+		<ListPosts FirstBig={true} posts={paginatedPosts} />
+	</div>
+
+	<Pagination currentPage={currentPage} totalPages={totalPages} baseUrl='/blog' />
+</BaseLayout>

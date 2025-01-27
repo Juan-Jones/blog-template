@@ -1,17 +1,41 @@
 ---
 export interface Props {
-	date: Date
+	date: string | Date
 }
 
 const { date } = Astro.props
----
 
-<time class='text-sm font-bold text-opacity-60' datetime={date.toISOString()}>
-	{
-		date.toLocaleDateString('en-us', {
+// Function to safely parse and format the date
+const formatDate = (dateValue: string | Date): string => {
+	try {
+		const parsedDate = new Date(dateValue)
+		if (isNaN(parsedDate.getTime())) throw new Error('Invalid Date')
+		return parsedDate.toISOString()
+	} catch {
+		console.error('Invalid date format received:', dateValue)
+		return new Date().toISOString() // Default to current date
+	}
+}
+
+// Function to display the date in a human-readable format
+const displayDate = (dateValue: string | Date): string => {
+	try {
+		const parsedDate = new Date(dateValue)
+		if (isNaN(parsedDate.getTime())) throw new Error('Invalid Date')
+		return parsedDate.toLocaleDateString('en-us', {
 			year: 'numeric',
 			month: 'short',
 			day: 'numeric'
 		})
+	} catch {
+		return 'Invalid Date'
 	}
+}
+
+const isoDate = formatDate(date)
+const readableDate = displayDate(date)
+---
+
+<time class='text-sm font-bold text-opacity-60' datetime={isoDate}>
+	{readableDate}
 </time>

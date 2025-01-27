@@ -6,8 +6,11 @@ export const getCategories = async () => {
 	const categories = new Set(
 		posts.filter((post) => !post.data.draft).map((post) => post.data.category)
 	)
+
 	return Array.from(categories).sort((a, b) =>
-		CATEGORIES.indexOf(a) < CATEGORIES.indexOf(b) ? -1 : 1
+		CATEGORIES.includes(a) && CATEGORIES.includes(b)
+			? CATEGORIES.indexOf(a) - CATEGORIES.indexOf(b)
+			: 0
 	)
 }
 
