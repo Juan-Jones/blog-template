@@ -4,7 +4,7 @@ description: 'Everything you need to know about the eBay Affiliate Program, from
 pubDate: 'Sept 05 2020'
 heroImage: '../../assets/images/ebay-affiliate-program.jpg'
 category: 'Digital Ventures'
-tags: ['Affiliate Marketing']
+tags: ['Referrals']
 ---
 
 The **eBay Affiliate Program**, also known as the eBay Partner Network (EPN), offers a fantastic opportunity for marketers to earn commissions by promoting eBay products. Whether you're a seasoned affiliate marketer or just starting, understanding how this program works and how to optimize your efforts can make a significant difference in your earnings.

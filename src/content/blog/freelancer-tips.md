@@ -4,7 +4,7 @@ description: 'Check out freelancing tips on portfolio building, rate setting, fi
 pubDate: 'Oct 10 2019'
 heroImage: '../../assets/images/freelancers-tips.jpg'
 category: 'Freelancing'
-tags: ['Gig Economy']
+tags: ['Contracting']
 ---
 
 Freelancing has become a popular career choice, offering flexibility, autonomy, and the potential for high earnings. However, the path to becoming one of the richest freelancers requires more than just talent and determination. In this article, we will explore essential tips and strategies to help you excel in your freelance career.

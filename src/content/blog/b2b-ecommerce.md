@@ -4,7 +4,7 @@ description: 'Unlock B2B eCommerce potential with tailored solutions, streamlini
 pubDate: 'Nov 02 2020'
 heroImage: '../../assets/images/business-to-business-ecommerce.jpg'
 category: 'Ecommerce'
-tags: ['Online Stores']
+tags: ['Webstore']
 ---
 
 Starting an online store for B2B e-commerce can offer numerous benefits. It can lead to increased sales, improved customer satisfaction, and enhanced operational efficiency. Moreover, it allows businesses to reach a global audience and operate 24/7, providing unparalleled convenience for both buyers and sellers.

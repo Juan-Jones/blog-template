@@ -4,7 +4,7 @@ description: 'Complete CJ Affiliate review including advantages, disadvantages, 
 pubDate: 'May 05 2024'
 heroImage: '../../assets/images/cj-affiliate-assessment.jpg'
 category: 'Digital Ventures'
-tags: ['Affiliate Marketing']
+tags: ['Referrals']
 ---
 
 CJ is a leading global affiliate marketing network. It connects publishers and advertisers, allowing the former to earn commissions by promoting the latter's products. With a broad range of products and services, CJ Affiliate is an excellent platform for both novice and experienced marketers.

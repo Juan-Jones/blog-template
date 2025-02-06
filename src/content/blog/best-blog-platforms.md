@@ -4,7 +4,7 @@ description: 'Discover the top 20 blog platforms and their key features in this 
 pubDate: 'Oct 05 2019'
 heroImage: '../../assets/images/best-blog-websites.jpg'
 category: 'Blogging'
-tags: ['Content Creation']
+tags: ['Publishing']
 ---
 
 Find a suitable blogging platform is like laying the foundation for a dream home; it sets the tone for everything you’ll create. The perfect platform isn’t just about features it’s about giving you the freedom to express your vision while providing the tools to grow and thrive.

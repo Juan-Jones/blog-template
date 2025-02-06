@@ -1,25 +1,18 @@
 ---
-import type { PaginateFunction } from 'astro'
 import BaseLayout from '@/layouts/BaseLayout'
 import ListPosts from '@/components/ListPosts'
 import ListCategories from '@/components/ListCategories'
 import TitlePage from '@/components/TitlePage'
 import { sluglify, unsluglify, getCategories, getPosts } from '@/utils'
 import { siteConfig } from '@/data/site.config'
-import { getEntry } from 'astro:content'
 import Pagination from '@/components/Pagination'
 
-// Ensure paginate function is properly typed
-export async function getStaticPaths({ paginate }: { paginate: PaginateFunction }) {
+export async function getStaticPaths({ paginate }: any) {
 	const categories = await getCategories()
 	const allPosts = await getPosts()
 
-	if (!categories || categories.length === 0) {
-		throw new Error('No categories found! Ensure your data source is configured correctly.')
-	}
-
-	return categories.flatMap((category) => {
-		const unsluglifyNameCategory = unsluglify(category.toLowerCase())
+	return categories.flatMap((category: string) => {
+		const unsluglifyNameCategory = unsluglify(category!.toLowerCase())
 		const filteredPosts = allPosts.filter(
 			(post) => post.data.category.toLowerCase() === unsluglifyNameCategory
 		)
@@ -32,56 +25,19 @@ export async function getStaticPaths({ paginate }: { paginate: PaginateFunction 
 		})
 	})
 }
-
-// Extract `page` as an array to support catch-all routing
 const params = Astro.params
-const pageParam = Array.isArray(params.page) ? params.page[0] : params.page
-const currentPage = pageParam ? parseInt(pageParam, 10) : 1
+const { page } = Astro.props
 
-// Handle category name and fetch posts
-const unsluglifyNameCategory = unsluglify(params.category.toLowerCase())
-const categoryData = await getEntry('categories', sluglify(params.category.toLowerCase()))
-
-const allPosts = await getPosts()
-
-// Filter posts by category
-const filteredPosts = allPosts.filter(
-	(post) => post.data.category.toLowerCase() === unsluglifyNameCategory
+const unsluglifyNameCategory = unsluglify(params.category!.toLowerCase())
+const categoryName = (await getCategories()).find(
+	(category) => category.toLowerCase() === unsluglifyNameCategory
 )
-
-// Validate category and posts
-if (!filteredPosts || filteredPosts.length === 0) {
-	throw new Response('Category not found or no posts available', { status: 404 })
-}
-
-// Calculate pagination
-const totalPages = Math.ceil(filteredPosts.length / siteConfig.paginationSize)
-
-if (currentPage < 1 || currentPage > totalPages) {
-	throw new Response('Page not found', { status: 404 })
-}
-
-// Paginate posts
-const start = (currentPage - 1) * siteConfig.paginationSize
-const end = start + siteConfig.paginationSize
-const posts = filteredPosts.slice(start, end)
+const posts = page.data
 ---
 
-<BaseLayout title={`Category: ${unsluglifyNameCategory}`}>
-	<TitlePage title={`Category: ${unsluglifyNameCategory}`} />
+<BaseLayout title={categoryName}>
+	<TitlePage title={categoryName} />
 	<ListCategories activeCategory={params.category} />
-	{
-		posts.length > 0 ? (
-			<ListPosts posts={posts} />
-		) : (
-			<p>
-				No posts found in this category. <a href='/category'>View all categories</a>.
-			</p>
-		)
-	}
-	<Pagination
-		currentPage={currentPage}
-		totalPages={totalPages}
-		baseUrl={`/category/${params.category}`}
-	/>
+	<ListPosts posts={posts} />
+	<Pagination page={page} />
 </BaseLayout>

@@ -4,7 +4,7 @@ description: 'Explore the world of e-commerce, a digital realm where virtual mar
 pubDate: Nov 09 2019
 heroImage: '../../assets/images/ecommerce-101.jpg'
 category: 'Ecommerce'
-tags: ['Online Stores']
+tags: ['Webstore']
 ---
 
 In recent years, e-commerce has witnessed exponential growth, revolutionizing the way people conduct business transactions. From small-scale entrepreneurs to multinational corporations, e-commerce has become an integral part of modern commerce, reshaping consumer behavior and market dynamics.

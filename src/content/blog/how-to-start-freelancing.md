@@ -4,7 +4,7 @@ description: 'Your gateway to the world of self employment. Discover how to navi
 pubDate: 'Oct 08 2019'
 heroImage: '../../assets/images/freelance-beginners.jpg'
 category: 'Freelancing'
-tags: ['Gig Economy']
+tags: ['Contracting']
 ---
 
 Are you tired of the traditional 9-to-5 grind? Do you yearn for the freedom to choose your projects, set your own hours, and work from anywhere in the world? In this blog post, we will explore _how to start freelancing_!

@@ -4,7 +4,7 @@ description: 'Learn how to make money on Fiverr, take your freelancing earnings 
 pubDate: 'Nov 08 2019'
 heroImage: '../../assets/images/earn-income-on-fiverr.jpg'
 category: 'Freelancing'
-tags: ['Gig Economy']
+tags: ['Contracting']
 ---
 
 Fiverr has revolutionized the freelance marketplace by offering a platform where freelancers can sell their services, or "gigs," starting at just five dollars. With the right strategies, you can turn Fiverr into a substantial source of income. Here are key tips and strategies to help you make money on Fiverr.

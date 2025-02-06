@@ -4,7 +4,7 @@ description: 'Learn how to find your niche, discover your passion and tap into y
 pubDate: 'Oct 08 2020'
 heroImage: '../../assets/images/select-your-niche.jpg'
 category: 'Blogging'
-tags: ['Content Creation']
+tags: ['Publishing']
 ---
 
 Finding your niche can feel like searching for a needle in a haystack, but with the right approach, you can discover the unique corner of the market that suits your strengths and passions. This guide will walk you through the steps to _identify your niche_, with practical tips and insights to help you carve out your space effectively.

@@ -4,7 +4,7 @@ description: 'Discover the wealthiest freelancers in various industries, analyzi
 pubDate: 'Nov 10 2019'
 heroImage: '../../assets/images/wealthy-freelancers.jpg'
 category: 'Freelancing'
-tags: ['Gig Economy']
+tags: ['Contracting']
 ---
 
 In a world where traditional employment is continually being redefined, freelancing has emerged as a lucrative career path for many. This investigation delves into the lives of the richest freelancers, exploring how they achieved financial success and what others can learn from their journeys.

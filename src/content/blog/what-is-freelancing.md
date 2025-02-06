@@ -4,7 +4,7 @@ description: 'Explore freelancing fundamentals along with key elements, earning 
 pubDate: 'Jan 01 2020'
 heroImage: '../../assets/images/whats-freelancing.jpg'
 category: 'Freelancing'
-tags: ['Gig Economy']
+tags: ['Contracting']
 ---
 
 In an era characterized by rapid technological advancements, shifting employment paradigms, and a burgeoning desire for autonomy and flexibility, freelancing has emerged as a compelling alternative to traditional employment. In this blog post, we will explore what freelancing is, its pros and cons, and why this industry has grown. More importantly, we'll discuss why so many people are choosing to become freelancers.

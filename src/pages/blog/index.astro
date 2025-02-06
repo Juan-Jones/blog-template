@@ -1,24 +1,33 @@
 ---
-import BaseLayout from '@/layouts/BaseLayout'
-import TitlePage from '@/components/TitlePage'
-import ListPosts from '@/components/ListPosts'
-import Pagination from '@/components/Pagination'
 import { getPosts } from '@/utils'
 import { siteConfig } from '@/data/site.config'
+import ListPosts from '@/components/ListPosts'
+import Pagination from '@/components/Pagination'
+import BaseLayout from '@/layouts/BaseLayout'
 
-const PAGE_SIZE = 11
+const pageParam = Astro.url.searchParams.get('page')
+const currentPage = pageParam ? parseInt(pageParam, 10) : 1
+
+const postsPerPage = siteConfig.paginationSize
 const allPosts = await getPosts()
-const totalPages = Math.ceil(allPosts.length / PAGE_SIZE)
-const paginatedPosts = allPosts.slice(0, PAGE_SIZE)
+const totalPages = Math.floor((allPosts.length + postsPerPage - 1) / postsPerPage)
+const paginatedPosts = allPosts.slice((currentPage - 1) * postsPerPage, currentPage * postsPerPage)
+
+const page = {
+	start: (currentPage - 1) * postsPerPage,
+	currentPage,
+	lastPage: totalPages,
+	url: {
+		prev: currentPage > 1 ? `/blog?page=${currentPage - 1}` : undefined,
+		next: currentPage < totalPages ? `/blog?page=${currentPage + 1}` : undefined
+	}
+}
 ---
 
-<BaseLayout title='Blog'>
-	<TitlePage title={siteConfig.title} />
+<BaseLayout title='Blog' description='Latest blog posts from Earn Money Online'>
+	<h1 class='text-4xl font-bold mb-6'>Latest Blog Posts</h1>
 
-	<div>
-		<h2 class='text-lg font-medium tracking-wide text-end'>Latest Posts</h2>
-		<ListPosts FirstBig={true} posts={paginatedPosts} />
-	</div>
+	<ListPosts posts={paginatedPosts} FirstBig={false} />
 
-	<Pagination currentPage={1} totalPages={totalPages} baseUrl='/blog' />
+	<Pagination page={page} />
 </BaseLayout>

@@ -4,7 +4,7 @@ description: 'Learn how to sell on Shopify & optimize your store for success. Ex
 pubDate: 'Nov 10 2019'
 heroImage: '../../assets/images/shopify-selling.jpg'
 category: 'Ecommerce'
-tags: ['Online Stores']
+tags: ['Webstore']
 ---
 
 Launching a shopify store can be daunting. As a leading e-commerce platform, Shopify has revolutionized the way entrepreneurs sell products online. Shopify offers a user-friendly interface, robust features, and powerful tools to help you create, manage, and grow your online store. This guide will walk you through the process of selling on Shopify, from setting up your store to scaling your business for success.

@@ -4,7 +4,7 @@ description: 'Learn how to start with ClickBank affiliate marketing. Tips, strat
 pubDate: 'May 04 2024'
 heroImage: '../../assets/images/clickbank-associate-marketing.jpg'
 category: 'Digital Ventures'
-tags: ['Affiliate Marketing']
+tags: ['Referrals']
 ---
 
 Affiliate marketing is a popular way to earn passive income online, and ClickBank is a leading platform in this space. Whether you’re a novice or just exploring the idea, this guide will walk you through the essentials of ClickBank affiliate marketing, from signing up to exploring product choices and even considering alternatives.

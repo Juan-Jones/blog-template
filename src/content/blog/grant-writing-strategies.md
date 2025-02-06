@@ -4,7 +4,7 @@ description: 'Master grant writing for your clients with our comprehensive guide
 pubDate: 'Nov 04 2019'
 heroImage: '../../assets/images/grant-writing-techniques.jpg'
 category: 'Freelancing'
-tags: ['Gig Economy']
+tags: ['Contracting']
 ---
 
 In today's nonprofit landscape, securing funding through grants is essential for organizations to achieve their missions and serve their communities effectively. Grant writing is a specialized skill that requires a combination of strategic thinking, effective communication, and a deep understanding of the funding landscape. For professionals who write grants on behalf of clients, whether they are consultants, freelancers, or nonprofit staff members, mastering the art of grant writing is crucial. Lets explore _grant writing strategies_, tips, and best practices.

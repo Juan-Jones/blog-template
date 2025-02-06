@@ -4,7 +4,7 @@ description: 'Find the best freelance websites and opportunities online. Explore
 pubDate: 'Oct 10 2019'
 heroImage: '../../assets/images/freelance-sites.jpg'
 category: 'Freelancing'
-tags: ['Gig Economy']
+tags: ['Contracting']
 ---
 
 This comprehensive guide unveils a curated list of the _best freelance websites_, serving as a compass for those navigating the expansive gig economy. From offering freelance writing services, creating graphic designs, developers, and beyond, to invaluable resources offering insights, tips, and support, this compilation aims to empower freelancers with a comprehensive toolkit for success in their professional endeavors.

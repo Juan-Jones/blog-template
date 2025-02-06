@@ -4,7 +4,7 @@ description: 'Ultimate affiliate marketing guide. Examine the fundamentals, proc
 pubDate: 'Oct 10 2019'
 heroImage: '../../assets/images/affiliate-marketing-basics.jpg'
 category: 'Digital Ventures'
-tags: ['Affiliate Marketing']
+tags: ['Referrals']
 ---
 
 There are several reasons why you should consider affiliate marketing. To begin with, over the last decade the affiliate marketing industry has grown tremendously. According to research, the affiliate marketing industry was worth around 13 billion in 2016. Fast-forward to 2023, 17 billion. On top of that, you can earn passive income, and generate online income 24-7, even while your sleep!

@@ -4,7 +4,7 @@ description: 'The best Shopify apps that can optimize your e-commerce store, str
 pubDate: 'Nov 13 2019'
 heroImage: '../../assets/images/shopify-applications.jpg'
 category: 'Ecommerce'
-tags: ['Online Stores']
+tags: ['Webstore']
 ---
 
 When it comes to e-commerce, leveraging the right tools can make a significant difference in your store’s performance. Shopify offers a plethora of apps designed to help you streamline operations, enhance customer experience, and ultimately, boost sales. This post explores some of the must-have _Shopify apps_ that can take your e-commerce store to the next level.

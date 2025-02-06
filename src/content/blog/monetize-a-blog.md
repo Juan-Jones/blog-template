@@ -4,7 +4,7 @@ description: 'Learn how to monetize a blog effectively. Explore diverse revenue 
 pubDate: 'Oct 28 2019'
 heroImage: '../../assets/images/ways-to-monetize-a-blog.jpg'
 category: 'Blogging'
-tags: ['Content Creation']
+tags: ['Publishing']
 ---
 
 Our objective extends beyond furnishing aspiring bloggers with insights solely aimed at how to monetize a blog; we aim to provide a holistic view of the process, so that you can leverage your blog to its full potential. In this post we will focus on the art of the process of _blog monetization_, from optimizing your blog to blogging for money.
