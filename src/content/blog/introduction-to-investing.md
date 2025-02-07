@@ -4,7 +4,7 @@ description: 'Discover the basics of investing in stocks, bonds, and mutual fund
 pubDate: 'Oct 16 2019'
 heroImage: '../../assets/images/investing-intro.jpg'
 category: 'Investment Strategies'
-tags: ['Wealth Building']
+tags: ['Prosperity']
 ---
 
 Investing is a crucial aspect of financial planning that empowers individuals to grow their wealth over time. Whether you're aiming to save for retirement, build a nest egg, or achieve financial independence, understanding the fundamentals of investing is essential. This guide provides a comprehensive overview for beginners, covering key concepts, strategies, and practical tips to navigate the world of investing confidently.

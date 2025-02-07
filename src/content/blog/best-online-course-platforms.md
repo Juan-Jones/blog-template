@@ -11,7 +11,7 @@ In today's fast-paced world, continuous learning has become essential for person
 
 ## Best Online Courses
 
-Let's explore the _best online course platforms_;
+Let's explore the best online course platforms;
 
 ### 1. Coursera.org
 

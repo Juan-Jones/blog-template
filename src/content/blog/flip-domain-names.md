@@ -4,7 +4,7 @@ description: 'Must have domain name flipping tips. Find out how to acquire, enha
 pubDate: 'Jan 06 2020'
 heroImage: '../../assets/images/how-to-flip-domains.jpg'
 category: 'Investment Strategies'
-tags: ['Wealth Building']
+tags: ['Prosperity']
 ---
 
 Learn the ins and outs of domain flipping, from finding profitable domains and valuing them to advanced strategies and tools. This comprehensive guide covers everything you need to know to start and succeed in the world of **domain flipping**

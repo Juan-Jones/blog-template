@@ -4,7 +4,7 @@ description: 'Discover the top 12 investors in the world and learn about their i
 pubDate: 'Nov 18 2019'
 heroImage: '../../assets/images/best-investors.jpg'
 category: 'Investment Strategies'
-tags: ['Wealth Building']
+tags: ['Prosperity']
 ---
 
 Investing is both an art and a science, requiring a keen understanding of market dynamics, economic trends, and the ability to foresee future opportunities. The following profiles cover twelve of the most influential investors who have made significant contributions to the investment world through their innovative strategies and remarkable achievements.

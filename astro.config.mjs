@@ -7,6 +7,8 @@ import { siteConfig } from './src/data/site.config'
 import rehypeExternalLinks from 'rehype-external-links'
 
 // https://astro.build/config
+
+
 export default defineConfig({
 	site: siteConfig.site,
 	markdown: {
