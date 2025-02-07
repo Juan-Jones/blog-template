@@ -11,7 +11,7 @@ import rehypeExternalLinks from 'rehype-external-links'
 
 export default defineConfig({
 	site: siteConfig.site,
-	trailingSlash: 'always',
+	trailingSlash: 'never',
 	markdown: {
 		remarkPlugins: [remarkReadingTime],
 		rehypePlugins: [
